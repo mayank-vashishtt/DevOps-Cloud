@@ -1,0 +1,33 @@
+mircoservice architecture
+
+what is monoltihic
+decompose ? 
+mircoservice talk to each other using APIS
+DNS - -we can't remember IPs ; dns servers 
+when u buy router at home ? come to home then on your laptop they do configuration one of that is IP adreess of dns server 
+from dns server req goes to load balancer. ---> mostly it goes to authentication & authorization(multiple instances) --> real microservice   (microservice communication)
+why coming multiple isntances not getting it ? ---
+if 2 instance i add data in one will its show in another ? explain in deep ? 
+there should be load balancer between each service ? 
+
+
+
+diff between authorization and authentication?
+3 access of scalabilty ? 
+why one db for everything will become bottleneck ? why need indpendent dbs ? 
+what is redis ?  in memory store 
+sql vs nosql 
+no sql db catergory ?  --- 4  category 
+wht is api 
+wht is service discovery ? .
+microservice can talk to each other --- sync comm and unsync comm 
+where is eventually consistent .. explain with example 
+pub subs model and queue model in unsync comm  explain these model 
+why dont need load balancer in both these models ? 
+API gateway ? 
+event sycning ? 
+why in sync comm we always neeed to have load balancer? and on opposite why not ? 
+logs? -- 
+why in microservice world we exteralise the lod ,don't but it in same service ? tool for it are ? 
+12-Factor Apps? 
+https://12factor.net/
