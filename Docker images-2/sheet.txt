@@ -1,0 +1,56 @@
+history command in terminal shows u all the commands u have run in terminal previously
+
+what is a container ? 
+
+
+how 2 Vms connection is diff ?
+IP address 
+network stack -- IP adress, port ranges, sockets  and all 
+in VM network space is diff
+have diff process space
+file system space 
+user space
+IPC 
+
+
+
+faterated account in aws?
+
+ip a ? what is shows?
+
+what is mac address? 
+
+what is subnetiing ? 
+
+0.0.0.0/0 is ? entire world IP ? 
+
+
+docker container inspect <conainer_id> -- finds the IP 
+
+what is -d and -p in docker command ? 
+
+
+sleep 2000 &
+hostname 
+what is RPC ? 
+
+
+
+ps -ef 
+
+
+why docker run ubuntu destroyed very fast?
+doesnt have any process inside it. 
+
+
+docker run -it ubuntu bash 
+
+hypervisior
+
+container internals --- 
+isolated 
+namespaces 
+
+c groups 
+controlled grps 
+what are these ? 
